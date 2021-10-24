@@ -5,70 +5,83 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bin Lama's Portfolio</title>
+        <meta name="description" content="Bin Lama's Portfolio"> 
         <script defer src="./app.js"></script>
+        <link rel="stylesheet" type="text/css" href="about.css">
+        <link rel="stylesheet" type="text/css" href="../reset.css">
     </head>
     <body>
 
         <!--------------------- Side Bar --------------------->
-        <aside>
-            <img src="../images/BinlamaWhiteBackground.png" alt="Bin's Picture">
-            <nav>
-                <ul>
-                    <li>ABOUT</li>
-                    <li>SKILLS</li>
-                    <li>PROJECTS</li>
-                    <li>WORK EXPERIENCE</li>
-                    <li>EDUCATION</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
-        </aside>
+        <!-- Resource # https://stackoverflow.com/questions/47639947/basic-split-screen-with-css-html#59361917 -->
+        <!-- <div class="col-1"> -->
+            <aside>
+                <img class="center" id="profile-pic" src="../images/BinlamaWhiteBackground.png" alt="Bin's Picture">
+                <h1 class="center" id="name">Bin Lama</h1>
+                <nav class="center" >
+                    <ul>
+                        <li>ABOUT</li>
+                        <li>SKILLS</li>
+                        <li>PROJECTS</li>
+                        <li>WORK EXPERIENCE</li>
+                        <li>EDUCATION</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </nav>
+            </aside>
+        <!-- </div> -->
+        
 
         <!--------------------- Main page --------------------->
         <main>
 
             <!--------------------- About Me --------------------->
-            <section>
+            <section class="main-pad">
                 <div>
-                    <h1>Bin Lama</h1>
+                    <h1>Bin <span class="span-color">Lama</span></h1>
                     <p>Hi, welcome to my protfolio.</p>
                     <p>I'm senior-year Computer Science student interested in Data Science and its useage in helping the environment. I see data as a better way to solve our environmental problems.</p>
                 </div>
             </section>
 
             <!--------------------- Skills --------------------->
-            <section>
-                <div>
+            <section class="main-pad">
+                <div >
                     <h1>Skills</h1>
                     <div>
                         <h3>Coding Languages</h3>
                         <p>C, C++, JavaScript, Python</p>
+                        <progress id="bar" max="100" value="50">50%</progress>
                     </div>
 
                     <div>
                         <h3>Frontend Technologies</h3>
                         <p>Html, CSS, JavaScript, React</p>
+                        <progress id="bar" max="100" value="50">50%</progress>
                     </div>
 
                     <div>
                         <h3>Backend Technologies</h3>
                         <p>Nodejs, Express, SQLite3</p>
+                        <progress id="bar" max="100" value="50">50%</progress>
                     </div>
 
                     <div>
                         <h3>Documentation</h3>
                         <p>Word, Excel</p>
+                        <progress id="bar" max="100" value="50">50%</progress>
                     </div>
 
                     <div>
                         <h3>Python Libraries</h3>
                         <p>Pandas, Numpy, Sklearn, Matplotlib, Keras</p>
+                        <progress id="bar" max="100" value="50">50%</progress>
                     </div>
                 </div>
             </section>
 
             <!--------------------- Projects --------------------->
-            <section>
+            <section class="main-pad">
                 <div>
                     <h1>Projects</h1>
                     <p>I have some projects.</p>
@@ -77,16 +90,16 @@
             </section>
 
             <!--------------------- Work Experience --------------------->
-            <section>
+            <section class="main-pad">
                 <div>
-                    <h1>Work Experience</h1>
+                    <h1>Work <span class="span-color">Experience</span></h1>
                     <p>I have some experience please hire me.</p>
                     <p></p>
                 </div>
             </section>
 
             <!--------------------- Education --------------------->
-            <section>
+            <section class="main-pad">
                 <div>
                     <h1>Education</h1>
                     <p>Hi, welcome to my protfolio.</p>
@@ -95,7 +108,7 @@
             </section>
 
             <!--------------------- Contact --------------------->
-            <section>
+            <section class="main-pad">
                 <div>
                     <!-- Maybe have icons here instead of Contact .... -->
                     <h1>Contact</h1>
