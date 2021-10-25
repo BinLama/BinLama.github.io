@@ -17,15 +17,15 @@
         <!-- <div class="col-1"> -->
             <aside>
                 <img class="center" id="profile-pic" src="../images/BinlamaWhiteBackground.png" alt="Bin's Picture">
-                <h1 class="center" id="name">Bin Lama</h1>
+                <h1 id="name" class="bold" >BIN LAMA</h1>
                 <nav class="center" >
                     <ul>
-                        <li>ABOUT</li>
-                        <li>SKILLS</li>
-                        <li>PROJECTS</li>
-                        <li>WORK EXPERIENCE</li>
-                        <li>EDUCATION</li>
-                        <li>CONTACT</li>
+                        <li class="current_page link">ABOUT</li>
+                        <li class="link">SKILLS</li>
+                        <li class="link">PROJECTS</li>
+                        <li class="link">WORK EXPERIENCE</li>
+                        <li class="link">EDUCATION</li>
+                        <li class="link">CONTACT</li>
                     </ul>
                 </nav>
             </aside>
@@ -37,7 +37,7 @@
 
             <!--------------------- About Me --------------------->
             <section class="main-pad">
-                <div>
+                <div class="intro">
                     <h1>Bin <span class="span-color">Lama</span></h1>
                     <p>Hi, welcome to my protfolio.</p>
                     <p>I'm senior-year Computer Science student interested in Data Science and its useage in helping the environment. I see data as a better way to solve our environmental problems.</p>
@@ -47,7 +47,7 @@
             <!--------------------- Skills --------------------->
             <section class="main-pad">
                 <div >
-                    <h1>Skills</h1>
+                    <h1 class="padding_bottom">Skills</h1>
                     <div>
                         <h3>Coding Languages</h3>
                         <p>C, C++, JavaScript, Python</p>
@@ -81,13 +81,20 @@
                     <h1>Projects</h1>
                     <!-- <p>I have some projects.</p> -->
                     <div class="container">
-                        <div class="padding_right">
-                            <img src="" alt="Fitness Tracker image">
+                        <div class="padding_right image_allignment">
+                            <img id="tractivity" src="./images/Fitness-Future-1.png" alt="Fitness Tracker image" class="fitness_pic">
+                            <p>Tractivity</p>
                         </div>
                         <div>
-                            <p>Built a Fitness web application using HTML/JS/Node.js/Express/SQLite3/Oauth2.0 that allows (users/students) to securely login, remind, record, and view progress toward fitness goals.</p>
-                            <p>Led team of 3 students to design, implement, and scaled the application to 200+ users in 4 weeks</p>Created a dashboard visualizing JSON data of planned and completed fitness activities for the week and reminders of the goal for the next day
-                            <p>Created login authentication method using Google Oauth2.0, kept user information secure and private from SQL injection by sanitizing the query</p>
+                            <div class='show_inline padding_bottom'>
+                                <p>TRACTIVITY</p>
+                                <p>March 2020 - June 2020</span></p>
+                            </div>
+                            
+                            <p class="padding_bottom">Built a Fitness web application using <span class="bold">HTML/JS/Node.js/Express/SQLite3/Oauth2.0</span> that allows (users/students) to securely login, remind, record, and view progress toward fitness goals.</p>
+                            <p class="padding_bottom">Led team of 3 students to design, implement, and scaled the application to <span class="bold">200+ users in 4 weeks</span></p>
+                            <p class="padding_bottom">Created a dashboard visualizing JSON data of planned and completed fitness activities for the week and reminders of the goal for the next day</p>
+                            <p class="padding_bottom">Kept user information secure and private from SQL injection by sanitizing the query</p>
                         </div>
                     </div>
                     <p></p>
@@ -95,13 +102,13 @@
             </section>
 
             <!--------------------- Work Experience --------------------->
-            <section class="main-pad">
+            <!-- <section class="main-pad">
                 <div>
                     <h1>Work <span class="span-color">Experience</span></h1>
                     <p>I have some experience please hire me.</p>
                     <p></p>
                 </div>
-            </section>
+            </section> -->
 
             <!--------------------- Education --------------------->
             <section class="main-pad">

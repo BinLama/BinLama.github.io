@@ -5,16 +5,20 @@
 body {
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1200px;
     height: 100%;
     background-color: #E5E5E5;
+    margin: auto;
+
+    /* padding: 0px 100px; */
 }
 
 aside {
     position: fixed;
     background-color: var(--green-color);
     float: left;
-    width: 300px;
+    width: 250px;
     height: 100%;
 }
 
@@ -45,13 +49,19 @@ section h1 {
     color: red;
 }
 
-h1 {
-    font-weight: bolder;
+div > h1 {
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.padding_bottom { 
     padding-bottom: 10px;
 }
 
 h3 {
     font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 10px;
 }
 
 .container {
@@ -60,4 +70,68 @@ h3 {
 
 .padding_right {
     padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    /* color: white; */
+    /* font-weight: 600; */
+}
+
+li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.intro {
+    padding-top: 50px;
+}
+
+.fitness_pic {
+    width: 300px;
+    padding: 10px;
+}
+
+.show_inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_allignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.current_page {
+    color: white;
+    text-decoration: underline;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
 }
