@@ -1,6 +1,8 @@
 'use strict'
 
 let tracitivity = document.getElementById("tractivity");
+let shoptillyoudrop = document.getElementById("shoptillyoudrop")
+
 let about = document.getElementById("li_about");
 let skills = document.getElementById("li_skills");
 let project = document.getElementById("li_project");
@@ -17,7 +19,11 @@ function tracitivity_link_opener() {
     window.open("https://replit.com/@BinLama/fitnesstracker#index.js", "_blank");
 }
 
+shoptillyoudrop.addEventListener("click", shoptillyoudrop_link_opener);
 
+function shoptillyoudrop_link_opener() {
+    window.open("#", "_blank");
+}
 
 // adding event listeners for scroll function
 about.addEventListener("click", aboutChangeClass);

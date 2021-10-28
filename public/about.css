@@ -145,3 +145,7 @@ a {
     color: #000;
     text-decoration: none;
 }
+
+.padding_up {
+    padding-top: 50px;
+}
