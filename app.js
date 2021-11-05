@@ -22,7 +22,7 @@ function tracitivity_link_opener() {
 shoptillyoudrop.addEventListener("click", shoptillyoudrop_link_opener);
 
 function shoptillyoudrop_link_opener() {
-    window.open("#", "_blank");
+    window.open("https://replit.com/@BinLama/ShopTillYouDrop#index.html", "_blank");
 }
 
 // adding event listeners for scroll function
