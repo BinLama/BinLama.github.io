@@ -84,5 +84,3 @@ function contactChangeClass() {
     }
     console.log(contact.classList);
 }
-
-console.log(a)
