@@ -65,9 +65,11 @@ div > h1 {
 h3 {
     font-weight: bold;
     font-size: 1.2rem;
-    padding-top: 10px;
 }
 
+.padding_up_small {
+    padding-top: 10px;
+}
 .container {
     display: flex;
 }
@@ -148,4 +150,18 @@ a {
 
 .padding_up {
     padding-top: 50px;
+}
+
+#edu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.fab {
+ font-size: 2rem;
+}
+
+#contact {
+    padding-bottom: 100px;
 }
