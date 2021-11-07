@@ -25,6 +25,8 @@ function shoptillyoudrop_link_opener() {
     window.open("https://replit.com/@BinLama/ShopTillYouDrop#index.html", "_blank");
 }
 
+// https://binlama.github.io/ECS163FINALPROJECT/
+
 // adding event listeners for scroll function
 about.addEventListener("click", aboutChangeClass);
 skills.addEventListener("click", skillsChangeClass);
